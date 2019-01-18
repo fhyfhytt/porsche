@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>保时捷公司-独树一帜的品牌-保时捷中国</title>
+    <link rel="stylesheet" type="text/css" href="css/services2.css"/>
+    <link rel="icon" href="img/home/logo2.png" />
+    <link rel="stylesheet" href="css/head.css">
+	</head>
+	<body>
+		 <header style=" width:100%; height:100px">
+		</header>
+		<article>
+        <video controls="controls"autoplay="" width="100%" height="100%" name="media"><source src="video/porsche-video.mp4" type="video/mp4"></video>
+			<div class="boxx">
+				<h2>首页<span>/</span>服务<span>/<span><a>Porsche Exclusive Manufaktur</a></h2>
+				<div class="boxxa">
+					<p>非凡之事不会莫名其妙就在某个地方发生，非凡之地才能诞生非凡。手工打造，融入丰富的经验，注入饱满的激情，以客户为灵感之源。众多专家发挥敬业精神和专业能力，将买家的创意和个性融入到车辆之中，从而造就专属于您一人的保时捷座驾</p>
+					<h5>Porsche Exclusive Manufaktur</h5>
+				</div>
+				<div class="boox">
+					<div class="boxxb"><h2>>激情澎湃</h2><p>了解Porsche Exclusive Manufaktur如何让梦想跃然眼前</p></div>
+					<div class="boxxc"><h2>>独一无二</h2><p>我们为您提供了用于量身定制的众多的装配选择，美学与艺术并重。</p></div>
+          <div class="boxxd"><h2>>独特个性</h2><p>为您量身定制保时捷提供咨询与建议。</p></div>
+         
+        </div>
+         <div class="boxxe">
+           <h1>特别定制计划到Porsche Exclusive Manufaktur</h1>
+            <div class="wind">
+              <ul class="slide">
+
+              </ul>
+            </div>
+            <div class="line"><div class="slider"></div></div>
+          </div>
+			</div>
+			<section style="width: 100%;background: #f9fbed;padding-bottom:100px ;">
+				<div style="width: 1280px;margin: 0 auto;">
+					<h2 style="text-align: center;line-height: 70px;">在线特别活动</h2>
+					<img src="img/services/porsche-1.png" alt="">
+					<div style="display: inline-block; width: 500px;position: absolute;margin: 0 50px;">
+						<p >911 Turbo S Exclusive Series.
+从静止到加速到100km/h仅需2.9秒，输出功率达到了446kw，始终贯彻轻质理念，采用璀璨金金属漆，搭配亮黑色碳纤维组件，极致性能和完美外观往往难以兼得。</p>
+						<h3 style="display: inline-block;background: #7d7d7d;color: #F9FBED;padding: 10px 50px;border-radius:5px ;margin-top:70px ;">在线特别活动</h3>
+					</div>
+				</div>
+			</section>
+			<div style="width: 1280px;margin: 30px auto;">
+				<div class="bj">
+					<span>历史</span>
+				</div>
+				<div class="zp">
+					<div>
+						<span>原装配件</span>
+					</div>
+				</div>
+			</div>
+			<h2 style="text-align: center;">更多<br>激情澎湃/独一无二/独特个性</h2>
+		</article>
+    <embed src="end.html" width="100%" height="240px" type="" />
+		</body>
+
+<script type="text/javascript" src="js/ajax.js"></script>
+<script>
+  var heada = document.getElementsByTagName('header')[0];
+  var oslide=document.getElementsByClassName("slide")[0]
+	
+	
+	ajax('get', 'HEAD.html', '', (data) => {
+
+		heada.innerHTML = data;
+		
+  })
+  ajax('get', 'js/slide.json', '', (data) => {
+    arr=JSON.parse(data)
+
+    arr.forEach((item) => {
+      oslide.innerHTML += `<li><img src=${item.src} alt=""><h1>${item.time} </h1><p>${item.text} </p></li>`;
+    });
+})
+</script>
+<script src="js/slide.js"></script>
+</html>

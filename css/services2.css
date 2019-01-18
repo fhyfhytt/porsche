@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.boxx {
+  width: 1280px;
+  margin: 0 auto;
+}
+.boxx h2 {
+  font-style: italic;
+  font-weight: 900;
+  display: inline-block;
+  margin: 50px 0;
+  border-bottom: 4px solid gray;
+  color: #9E9E9E;
+}
+.boxx h2 span {
+  color: red;
+}
+.boxx h2 a {
+  color: #000000;
+}
+.boxxa {
+  width: 815px;
+  float: right;
+  font-weight: 900;
+  border-bottom: 3px solid ;
+  padding-bottom: 10px ;
+}
+.boxxa p {
+  line-height: 30px;
+  text-align: right;
+}
+.boxxa h5 {
+  background: #000000;
+  color: #F9FBED;
+  float: right;
+  margin-top: 50px;
+  padding: 5px;
+}
+.boxxb {
+  width: 260px;
+  height: 294px;
+  background-image: url(../img/services/porsche-normalq.png);
+  background-size: 294px ;
+  color: white;
+  margin: 5px;
+  display: inline-block;
+  font-size: 10px;
+}
+.boxxb h2 {
+  margin-top: 215px;
+  color: white;
+  margin-bottom: 5px;
+  border: none;
+}
+.boxxb p {
+  line-height: 20px;
+  margin-left: 20px;
+}
+.boxxc {
+  width: 260px;
+  height: 294px;
+  background-image: url(../img/services/porsche-normalq.png);
+  background-size: 294px ;
+  color: white;
+  margin: 5px;
+  display: inline-block;
+  font-size: 10px;
+}
+.boxxc h2 {
+  margin-top: 215px;
+  color: white;
+  margin-bottom: 5px;
+  border: none;
+}
+.boxxc p {
+  line-height: 20px;
+  margin-left: 20px;
+}
+.boox {
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+}
+.boox p:hover {
+  color: #FF0000;
+}
+.boox h2:hover {
+  color: #FF0000;
+}
+.boxxd {
+  width: 260px;
+  height: 294px;
+  background-image: url(../img/services/porsche-normalq.png);
+  background-size: 294px ;
+  color: white;
+  margin: 5px;
+  display: inline-block;
+  font-size: 10px;
+}
+.boxxd h2 {
+  margin-top: 215px;
+  color: white;
+  margin-bottom: 5px;
+  border: none;
+}
+.boxxd p {
+  line-height: 20px;
+  margin-left: 20px;
+}
+.bj {
+  width: 580px;
+  height: 360px;
+  display: inline-block;
+  background-image: url(../img/services/porsche-normal5678.png);
+  border-radius: 10px;
+}
+.bj span {
+  position: absolute;
+  margin-top: 160px ;
+  margin-left: 270px;
+  color: #F9FBED;
+  font-size: 30px;
+  font-weight: 900;
+}
+.zp {
+  width: 580px;
+  height: 360px;
+  display: inline-block;
+  background-image: url(../img/services/porsche-normal0986.png);
+  border-radius: 10px;
+}
+.zp div {
+  width: 580px;
+  height: 360px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.zp div span {
+  position: absolute;
+  margin-top: 160px ;
+  margin-left: 240px;
+  color: #F9FBED;
+  font-size: 30px;
+  font-weight: 900;
+}
+.boxxe {
+  width: 1200px;
+  margin: 50px auto;
+  position: relative;
+}
+.boxxe > h1 {
+  text-align: center;
+  margin: 20px;
+}
+.boxxe .wind {
+  overflow: hidden;
+}
+.boxxe .slide {
+  display: flex;
+  transition: 1s ease-out;
+  position: relative;
+}
+.boxxe .slide li {
+  margin: 0 10px;
+}
+.line {
+  width: 1200px;
+  height: 15px;
+  background: #848484;
+  position: relative;
+}
+.line .slider {
+  width: 200px;
+  height: 20px;
+  background-color: black;
+  position: absolute;
+  top: -2px;
+  cursor: pointer;
+}
+.line .slider:hover {
+  background-color: #FF0000;
+}

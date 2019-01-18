@@ -1,0 +1,153 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.carlunbo {
+  margin: -90px auto;
+}
+.carlunbo .legend1 {
+  font-weight: 400;
+  position: relative;
+  left: 80px;
+  top: 10px;
+  font-size: 20px;
+}
+.carlunbo .car-lunbo {
+  overflow: hidden;
+  width: 1200px;
+  display: flex;
+  height: 320px;
+}
+.carlunbo .car-lunbo li {
+  opacity: 0.7;
+  position: absolute;
+  transition: 1s all ease-out;
+  background: white;
+  cursor: pointer;
+}
+.carlunbo .car-lunbo li h1 {
+  font-size: 24px;
+  margin: 0 auto;
+}
+.carlunbo .car-lunbo li img {
+  margin: 0 30px;
+  opacity: 1;
+}
+.carlunbo .car-lunbo li p {
+  width: 300px;
+  margin: 0 auto;
+}
+.carlunbo .img3 {
+  width: 50px;
+  height: 76px;
+  position: absolute;
+  background: url("../img/home/leftc1.png") no-repeat;
+  background-size: contain;
+  top: 50%;
+  left: 50px;
+  margin-top: -38px;
+}
+.carlunbo .img4 {
+  width: 50px;
+  height: 76px;
+  position: absolute;
+  background: url("../img/home/rightc2.png") no-repeat;
+  background-size: contain;
+  top: 50%;
+  right: 50px;
+  margin-top: -38px;
+}
+.carlunbo .range {
+  margin: -4px;
+  width: 100%;
+  position: relative;
+}
+.carlunbo .range > li {
+  height: 8px;
+  width: 387px;
+  position: relative;
+  margin: 20px auto;
+  z-index: 99;
+  background-color: red;
+}
+.carlunbo .range > li > img {
+  position: relative;
+}
+.p2 {
+  box-shadow: 0 0 10px 0 silver;
+}
+.sox {
+  width: 1200px;
+}
+.cara {
+  width: 400px;
+  height: 170px;
+  display: inline-block;
+  margin-left: 240px;
+  background-image: url(../img/services/8.jpg);
+  background-size: 400px;
+  border-radius: 10px;
+}
+.car {
+  width: 400px;
+  height: 170px;
+  display: inline-block;
+  position: relative;
+  left: 230px;
+  top: -80px;
+  text-align: center;
+  line-height: 170px;
+  background-image: url(../img/services/7.jpg);
+  background-size: 400px;
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+.xiang {
+  width: 700px;
+  display: inline-block;
+  font-weight: 900;
+}
+.xiang span {
+  display: inline-block;
+  margin-left: 300px;
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: black;
+  color: #FFFFFF;
+  float: left;
+}
+.xiang p:nth-of-type(1) {
+  display: inline-block;
+  float: right;
+  margin-top: -2px;
+  border-bottom: 1px solid;
+}
+.xiang p:nth-of-type(2) {
+  position: absolute;
+  display: inline-block;
+  margin-top: 55px;
+  border-bottom: 1px solid;
+}
+.xiang p:nth-of-type(3) {
+  display: inline-block;
+  margin-left: 530px;
+  margin-top: 28px;
+  border-bottom: 1px solid;
+}
+.car {
+  width: 400px;
+  height: 170px;
+  display: inline-block;
+  position: relative;
+  left: 230px;
+  top: -80px;
+  text-align: center;
+  line-height: 170px;
+  background-image: url(../img/services/7.jpg);
+  background-size: 400px;
+  border-radius: 10px;
+  color: #FFFFFF;
+}

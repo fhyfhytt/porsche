@@ -1,0 +1,22 @@
+[
+  {
+    "area": "North America",
+    "id": 1,
+    "country": ["Canada(English)", "Canada(English)", "Mexico", "USA"]
+  },
+  {
+    "area": "Latin America",
+    "id": 2,
+    "country": ["bolivia", "brazil", "chile", "colombia"]
+  },
+  {
+    "area": "Europe",
+    "id": 3,
+    "country": ["Austria", "belarus", "belgium", "bosnis"]
+  },
+  {
+    "area": "Mid East",
+    "id": 4,
+    "country": ["Bahrain", "Dubai", "Iarael", "Jordan"]
+  }
+]
